@@ -7,7 +7,7 @@ Library  Selenium2Library   # declaring the library
 
 *** Test Cases ***
 The user must sign in to checkout    #name of the test case
-    [Documentation]  verify you see a sign page as soon as you proceed to checkout
+    [Documentation]  verify you see a sign page as soon as you click proceed to checkout
     [Tags]  Smoke     #helps in selecting what tests to run
     [Setup]  Open Browser  http://www.amazon.com  firefox   #got it from keywords documentation of Selenium2 library. You can change the browser you want here
     Wait Until Page Contains  Your Amazon.com      #checking if the page loaded successfully
