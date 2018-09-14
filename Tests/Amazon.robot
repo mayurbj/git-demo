@@ -4,7 +4,6 @@ Library  Selenium2Library   # declaring the library
 
 *** Variables ***
 
-
 *** Test Cases ***
 The user must sign in to checkout    #name of the test case
     [Documentation]  verify you see a sign page as soon as you proceed to checkout
